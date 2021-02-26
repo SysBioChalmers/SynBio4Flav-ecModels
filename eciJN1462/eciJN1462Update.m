@@ -77,7 +77,7 @@ load('GECKO/databases/ProtDatabase.mat');
 idx = find(ismember(kegg(:,1), ecModel.enzymes));
 ecModel.pathways = kegg(idx, 6);
 
-fid         = fopen(['protDatabase_all.list']);
+fid         = fopen(['GECKO/databases/protDatabase_all.list']);
 loadedData  = textscan(fid,'%s','delimiter','\t', 'HeaderLines',0); fclose(fid);
 keggPathways       = loadedData{1};
 keggPathways       = unique(keggPathways);
