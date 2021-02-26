@@ -1,0 +1,4 @@
+Unicode,enz_pos,rxn_pos,Organism,Modified,Parameter,oldValue,newValue,error,ControlCoeff
+Q88LU7,2247,3409,neurospora crassa,1,SA*Mw,0.0083,105.93,-49.5454,1.11183
+Q88D14,2506,3900,saccharomyces cerevisiae,1,SA*Mw,0.00215,525.667,-12.3838,0.735264
+Q88P16,2507,3901,escherichia coli,1,SA*Mw,0.05,5.06748,188.371,2.36025
