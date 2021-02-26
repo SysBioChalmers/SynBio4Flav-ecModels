@@ -1,0 +1,23 @@
+# Thumbnails
+._*
+
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Excel temporary file
+~$*
+
+# Scrap folder
+scrap
+
+# .DS_Store file
+*.DS_Store
+
+# Excel
+*.xlsx
+
+# Unless for main model uploads
+*.mat
