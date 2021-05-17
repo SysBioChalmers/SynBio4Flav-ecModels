@@ -1,0 +1,7 @@
+Rxn	RxnName	Reaction	Gene	Protein	EC	Kcat (1/s)	MW (KDa)	Origin species	Notes
+PAL	Phenylalanine ammonia-lyase	L-Phenylalanine[c] + 0.000154321 prot_P35510[c] => Ammonium[c] + trans-cinnamate[c]	PAL1	P35510	4.3.1.24	1.8	78.726	Arabidopsis thaliana	-
+C4H	Cinnamate-4-hydroxylase	H+[c] + O2[c] + trans-cinnamate[c] + Nicotinamide adenine dinucleotide phosphate - reduced[c] + 0.000161499 prot_P92994[c] => H2O[c] + Nicotinamide adenine dinucleotide phosphate[c] + p-Coumarate[c]	C4H	P92994	1.14.13.11	1.72	57.792	Arabidopsis thaliana	-
+CHI	Chalcone isomerase	H+[c] + Naringenin chalcone[c] + 0.000001490783973 prot_Q8VZW3[c] => Naringenin[c]	CHI1	Q8VZW3	5.5.1.6	186.33	23.332	Arabidopsis thaliana	Kcat not found / alternatively kcat = 186.33 in M. sativa ( https://www.jbc.org/article/S0021-9258(20)87935-6/fulltext) / P28012
+CHS	Chalcone synthase	2 H+[c] + p-Coumaryl-CoA[c] + 3 Malonyl-CoA[c] + 0.277778 prot_P13114[c] => 4 Coenzyme A[c] + 3 CO2[c] + Naringenin chalcone[c]	CHS3	P13114	2.3.1.74	0.001	43.116	Arabidopsis thaliana	-
+4CL	4-coumarate:CoA ligase	p-Coumarate[c] + ATP[c] + Coenzyme A[c] + 0.000330688 prot_Q9S777[c] => p-Coumaryl-CoA[c] + AMP[c] + Diphosphate[c]	4CL3	Q9S777	6.2.1.12	0.84	61.311	Arabidopsis thaliana	-
+TAL	tyrosine ammonia-lyase	L-Tyrosine[c] + 1.00281e-05 prot_A0A1M4NET9[c] => Ammonium[c] + p-Coumarate[c]	TAL	A0A1M4NET9	4.3.1.23	27.7	55.539	Rhodobacter capsulatus	-
