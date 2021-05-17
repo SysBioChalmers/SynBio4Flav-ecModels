@@ -50,7 +50,7 @@ cd ../..
 
 %% Preprocess model
 % Load Salb-GEM model
-modelSalb    = importModel('model/Salb-GEM.xml');
+modelSalb    = importModel('model/Salb-GEM-1.0.1.xml');
 
 % compile biomass pseudoreactions for GECKO model generation
 % Instead of separate pseudoreactions for each macromolecule, all

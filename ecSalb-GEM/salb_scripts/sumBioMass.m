@@ -33,7 +33,7 @@ comps = {'ala__L_c'	  89.09      'P'     % A     Alanine         ala
 %Get main fractions:
 [P,X] = getFraction(model,comps,'P',0);
 %Add up any remaining components:
-bioPos = find(strcmp(model.rxnNames,'S. coelicolor biomass objective function - with 75.79 GAM estimate'));
+bioPos = find(strcmp(model.rxnNames,'S. albus biomass objective function - with 173 GAM estimate'));
 for i = 1:length(model.mets)
     pos = strcmp(comps(:,1),model.mets{i});
     if sum(pos) == 1
@@ -49,7 +49,7 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [F,X] = getFraction(model,comps,compType,X)
 %Define pseudoreaction name:
-rxnName = 'S. coelicolor biomass objective function - with 75.79 GAM estimate';
+rxnName = 'S. albus biomass objective function - with 173 GAM estimate';
 %Add up fraction:
 fractionPos = strcmpi(model.rxnNames,rxnName);
 comps = comps(strcmp(comps(:,3),compType),:);
